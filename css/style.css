@@ -1,7 +1,30 @@
 body {
     margin: 0;
 }
-
+/* Aqui quem ficou com o MENU poderá adcionar atributos css a vontade até o comentario
+OBS: Seu escopo de código  */
 .menu {
     background-color: aqua;
 }
+
+
+
+/* Fim do menu */
+
+/* Aqui quem ficou com o CONTENT poderá adcionar atributos css a vontade até o comentario
+OBS: Seu escopo de código  */
+.content {
+
+}
+
+
+/* Fim de CONTENT */
+
+/* Aqui quem ficou com o menu poderá adcionar atributos css a vontade até o comentario
+OBS: Seu escopo de código  */
+.footer{
+
+}
+
+
+/* Fim de FOOTER */

@@ -1,12 +1,83 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 /* Aqui quem ficou com o MENU poderá adcionar atributos css a vontade até o comentario
 OBS: Seu escopo de código  */
-.menu {
-    background-color: aqua;
+
+.menu{
+    width: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    background-color: #004085;
+    font-family: Arial ;
+}
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+#img{
+    margin-right: 100px;
+    width: 150px;
+}
+.menu ul li{
+    width: 150px;
+    float: left;
 }
 
+.menu div img{
+    height: 70px;
+    background-color: #004085;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.menu a{
+    font-size: 25px;
+    padding: 20.5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #004085;
+    color: #fff;
+}
+.menu a:hover{
+    background-color: #f4f4f4;
+    color: #555;
+}
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+#bt_menu{
+    display: none;
+}
+label[for="bt_menu"]{
+    display: none;
+}
+@media(max-width: 800px){
+    label[for="bt_menu"]{
+        display: block;
+    }
+    .menu{
+        margin-top: 5px; 
+    }
+    .menu ul li{
+        width: 100%;
+        float: none;
+    }  
+}
 
 
 /* Fim do menu */

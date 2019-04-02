@@ -5,13 +5,13 @@
 /* Aqui quem ficou com o MENU poderá adcionar atributos css a vontade até o comentario
 OBS: Seu escopo de código  */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .menu{
     width: 100%;
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-    height: 70px;
+    height: 54px;
     background-color: #004085;
     font-family: Arial ;
 }
@@ -19,26 +19,13 @@ OBS: Seu escopo de código  */
     list-style: none;
     position: relative;
 }
-#img{
-    margin-right: 100px;
-    width: 150px;
-}
 .menu ul li{
     width: 150px;
     float: left;
 }
-
-.menu div img{
-    height: 70px;
-    background-color: #004085;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
 .menu a{
-    font-size: 25px;
-    padding: 20.5px;
+    font-size: 20px;
+    padding: 15px;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -48,6 +35,9 @@ OBS: Seu escopo de código  */
 .menu a:hover{
     background-color: #f4f4f4;
     color: #555;
+}
+#img{
+    margin-left: 30px
 }
 label[for="bt_menu"]{
     padding: 5px;

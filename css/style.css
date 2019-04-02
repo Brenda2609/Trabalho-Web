@@ -75,9 +75,20 @@ label[for="bt_menu"]{
 /* Aqui quem ficou com o CONTENT poderá adcionar atributos css a vontade até o comentario
 OBS: Seu escopo de código  */
 .content {
-
+    background-color: #263238;
+    height: 600px;
 }
-
+.content div{
+    width: 50%;
+    padding: 80px;
+    color: #3ddc8d
+}
+#center{
+    padding: 90px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
 
 /* Fim de CONTENT */
 
